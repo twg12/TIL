@@ -60,6 +60,18 @@ def test_total():
     assert total([80, 100]) == 180
 ```
 
+7. Seventh try
+```py
+def total(scores):
+    total_score = 0
+    for i inrange(0, len(scores)):
+        total_scores += scores[i]
+    return total_score/len(scores)
+
+def test_total_with_empty():
+    assert total 
+```
+
 
 ## Factorial
 n = 3
@@ -104,6 +116,7 @@ def test_fact():
 
 
 ## 구구단 출력하기
+
 for i in range(2,10):
    for j in range(1, 10):
        print(i, "x", j, "=", i*j)
@@ -143,3 +156,51 @@ for i in range(1, 10):
         n = i*j
         print (i "x" j " is " n)
 ```
+
+## 구구단
+1. 
+```py
+print('2*1 = ', 2)
+print('2*2 = ', 4)
+print('2*3 = ', 6)
+...
+```
+
+2. 
+```py
+for i in [1,2,3,4,5,6,7,8,9]:
+    print(2, '*', i, '=',2*i)
+def test_mult():
+assert multiply(2, 1) == 2
+
+def  multiply(x, y):
+    return 2
+
+def multiply(x, y):
+    return f'{x} * {y} = 2{x * y}'
+```
+
+3. 
+```py
+def test_mult():
+assert multiply(2, 1) == 2
+assert multiply(2, 2) == 4
+for i in range(1, 9+ 1):
+    print(multiply(2, i))
+```
+
+4. 
+```py
+def mult_table():
+    table = test_mult()
+assert table[0] == '2 * 1 = 2'
+assert table[1] == '2 * 2 = 4'
+for i in range(1, 9+ 1):
+    print(multiply(2, i))
+
+def mult_table():
+    mult = []
+    mult.append(mult(2, 1)
+    mult.append(mult(2, 2))
+    ...
+    return mults
