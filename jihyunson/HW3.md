@@ -41,6 +41,8 @@ def total_Korean():
 ```
 
 
+
+
 ## 2) class_scores set에 있는 모든 점수의 합은 얼마인가요?
 => class_total_all(class_scores) == 430
 
